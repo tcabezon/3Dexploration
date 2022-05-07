@@ -1,0 +1,42 @@
+html, body {
+  align:center;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+        
+html, body {
+height: 100%;
+text-align: center;
+background-color: rgb(23, 239, 66);
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+div {
+  
+  display: inline;
+}
+.container{
+  display: inline;
+}
+
+.sg{
+  background-color: coral;
+  flex:block;
+}
+
+#defaultCanvas0{
+  background-image: url("content/plot_s.jpeg");
+}
+
