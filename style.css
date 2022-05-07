@@ -11,7 +11,7 @@ canvas {
 html, body {
 height: 100%;
 text-align: center;
-background-color: rgb(23, 239, 66);
+/* background-color: rgb(23, 239, 66); */
 }
 
 html {
@@ -37,6 +37,6 @@ div {
 }
 
 #defaultCanvas0{
-  background-image: url("content/plot_s.jpeg");
+  /* background-image: url("content/plot_s.jpeg"); */
 }
 

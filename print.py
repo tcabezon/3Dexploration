@@ -11,7 +11,7 @@ print(np.max(tsne_plot[:,1]))
 print(np.min(tsne_plot[:,1])) 
 
 print('\n')
-for i in range(1000):
+for i in range(3000):
     print('p'+str(i),end=',') 
 print('\n')
 
@@ -21,14 +21,14 @@ for i in range(100):
         print('p'+str(i*v+j)+' = new vertice(sc*'+str(55.5+tsne_plot[i*v+j,0])+',sc*'+str(110.5-55-tsne_plot[i*v+j,1])+','+str(i*v+j+12000)+', [255, 0, 255])',end=';') 
 
 print('\n')
-for i in range(1000):
-    print('p'+str(i)+'.draw()',end=';') 
+# for i in range(3000):
+#     print('p'+str(i)+'.draw()',end=';') 
 
 print('\n')
 
-print('\n')
-for i in range(1000):
-    print('p'+str(i)+'.clicked(mouseX, mouseY)',end=';') 
+# print('\n')
+# for i in range(3000):
+#     print('p'+str(i)+'.clicked(mouseX, mouseY)',end=';') 
 
 print('\n')
 
