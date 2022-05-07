@@ -58,22 +58,13 @@ class vertice {
     draw() {
         
         if (this.showing) {
-            this.around = 7
-            // this.x = mouseX
-            // this.y = mouseY
-            push()
-            // print('showing', this.name)
-            stroke(1)
-            fill('red')
-            translate(-(plotSize)/2, -plotSize/2, 0);
-            ellipse(this.x, this.y, this.radious * 2, this.radious * 2)
-            pop()
+            this.around = plotSize
 
             modelToLoad='content/stl/'+this.name+'.stl'
             setup()
             push()
             stroke(1)
-            fill(255,2,255,255)
+            fill(255,2,255,200)
             // scale(0.4); // Scaled to make model fit into canvas
             // rotateZ(- 0.001);
             rotateX(-0.7);
@@ -87,6 +78,19 @@ class vertice {
             // fill(250, 0, 0);
             model(teapotG);
             pop()
+
+
+            // this.x = mouseX
+            // this.y = mouseY
+            push()
+            // print('showing', this.name)
+            stroke(1)
+            fill('red')
+            translate(-(plotSize)/2, -plotSize/2, 0);
+            ellipse(this.x, this.y, this.radious * 2, this.radious * 2)
+            pop()
+
+            
             
 
         }
