@@ -72,7 +72,7 @@ class vertice {
             // scale(0.4); // Scaled to make model fit into canvas
             // rotateZ(- 0.001);
             rotateX(-0.7);
-            translate(0, 0, 110);
+            translate(0, -50, 160);
             // translate(-(plotSize)/2, -plotSize/2, 0);
             rotateY(frameCount * 0.01);
             // orbitControl(10);
