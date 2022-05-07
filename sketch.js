@@ -47,7 +47,7 @@ class vertice {
         this.color = color
         this.name = name
         this.radious = 4
-        this.around = 3
+        this.around = 5
         this.showing = false
 
         // let model='content/stl/'+name+'.stl'
@@ -95,7 +95,7 @@ class vertice {
 
         }
         else {
-            this.around = 3
+            this.around = 5
             noFill()
             noStroke()
             push()
