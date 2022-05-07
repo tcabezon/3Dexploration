@@ -3,7 +3,7 @@
 var play = true
 let windowWidth = document.documentElement.clientWidth
 let windowHeight = document.documentElement.clientHeight
-let plotSize= Math.min(windowWidth, windowHeight)
+let plotSize= Math.min(windowWidth, windowHeight)*0.95
 
 let var_num=10
 let teapotG;
